@@ -1,0 +1,24 @@
+# Tags
+project     = "replace-me"
+app         = "jenkins"
+environment = "production"
+
+# General
+region       = "us-east-2"
+project_name = "replace-me"
+
+# Application
+domain_name       = "replace-me.io"
+subdomain_name    = "jenkins.replace-me.io"
+health_check_path = "/login"
+
+# VPC
+vpc_cidir               = "10.0.0.0/16"
+public_subnet_az1_cidir = "10.0.0.0/24"
+public_subnet_az2_cidir = "10.0.1.0/24"
+
+# Route 53
+record_name = "jenkins"
+
+# EC2 
+e2_instance_key_name = "jenkins_pipeline"
